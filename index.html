@@ -8,8 +8,8 @@
         body { font-family: sans-serif; background: #121212; color: white; text-align: center; padding: 50px; }
         .container { max-width: 800px; margin: auto; background: #1e1e1e; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
         h1 { color: #00d2ff; }
-        ul { list-style: none; padding: 0; }
-        li { background: #2a2a2a; margin: 10px 0; padding: 15px; border-radius: 5px; display: flex; justify-content: space-between; align-items: center; }
+        table { width: 100%; margin-top: 20px; border-collapse: collapse; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #333; }
         a { color: #00d2ff; text-decoration: none; font-weight: bold; }
         a:hover { text-decoration: underline; }
         .footer { margin-top: 30px; font-size: 0.8em; color: #666; }
@@ -18,20 +18,23 @@
 <body>
     <div class="container">
         <h1>Cine Mundo BHS Repo</h1>
-        <p>Para instalar, adicione a URL do site no Gestor de Arquivos do Kodi.</p>
+        <p>Para instalar, adicione a URL deste site no Gestor de Arquivos do Kodi.</p>
         <hr style="border: 0; border-top: 1px solid #333;">
-        <h3>Addons Disponíveis:</h3>
-        <ul>
-            <li>
-                <span>repository.bhsxtream (Repositório)</span> 
-                <a href="repository.bhsxtream-1.0.1.zip">Baixar Zip</a>
-            </li>
-            <li>
-                <span>plugin.video.BHSXTREAM (Addon de Vídeo)</span> 
-                <a href="addons.xml">Ver XML</a>
-                <tr><td valign="top"></td><td><a href="repository.bhsxtream-1.0.1.zip"> repository.bhsxtream-1.0.1.zip</a></td></tr>
-            </li>
-        </ul>
+        <h3>Arquivos Disponíveis:</h3>
+        <table>
+            <tr>
+                <td valign="top">📁</td>
+                <td><a href="repository.bhsxtream-1.0.1.zip">repository.bhsxtream-1.0.1.zip</a></td>
+            </tr>
+            <tr>
+                <td valign="top">📄</td>
+                <td><a href="addons.xml">addons.xml</a></td>
+            </tr>
+            <tr>
+                <td valign="top">📄</td>
+                <td><a href="addons.xml.md5">addons.xml.md5</a></td>
+            </tr>
+        </table>
         <div class="footer">Gerado automaticamente para o seu Repositório Kodi</div>
     </div>
 </body>
