@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.bhsxtream" name="[B] [COLOR white]Cine[/COLOR] [COLOR red]Mundo:[/COLOR] [COLOR cyan]BHS Repo[/COLOR] [/B]" version="1.0.1" provider-name="Bryan">
-    <extension point="xbmc.addon.repository" name="[B] [COLOR white]Cine[/COLOR] [COLOR red]Mundo:[/COLOR] [COLOR cyan]BHS Repo[/COLOR] [/B]">
+<addon id="repository.bhsxtream" name="[B][COLOR white]Cine[/COLOR] [COLOR red]Mundo:[/COLOR] [COLOR cyan]BHS Repo[/COLOR][/B]" version="1.0.1" provider-name="Bryan">
+    <extension point="xbmc.addon.repository" name="Cine Mundo BHS Repo">
         <dir minversion="19.0.0">
             <info compressed="false">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml.md5</checksum>
