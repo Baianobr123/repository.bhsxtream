@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.BHSXTREAM" name="Cine Mundo BHS" version="1.0.1" provider-name="Bryan">
+
+    <addon id="repository.bhsxtream" name="[B][COLOR white]Cine[/COLOR] [COLOR red]Mundo:[/COLOR] [COLOR cyan]BHS Repo[/COLOR][/B]" version="1.0.1" provider-name="Bryan">
+        <extension point="xbmc.addon.repository" name="Cine Mundo BHS Repo">
+            <dir minversion="19.0.0">
+                <info compressed="false">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pt">Repositório oficial do Cine Mundo BHS</summary>
+            <description lang="pt">Baixe e mantenha seus addons atualizados automaticamente.</description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+
+    <addon id="plugin.video.BHSXTREAM" name="[B][COLOR white]Cine[/COLOR] [COLOR red]Mundo[/COLOR] [COLOR cyan]BHS[/COLOR][/B]" version="1.0.1" provider-name="Bryan">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -8,9 +27,13 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="pt">Cine Mundo BHS</summary>
-            <description lang="pt">Seu addon de vídeos oficial.</description>
+            <summary lang="pt">Cine Mundo BHS - Filmes e Séries</summary>
+            <description lang="pt">Addon de vídeos oficial do Cine Mundo BHS</description>
             <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
         </extension>
     </addon>
+
 </addons>
