@@ -6,7 +6,7 @@
             <dir minversion="19.0.0">
                 <info compressed="false">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml</info>
                 <checksum>https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/addon%20cine%20mundo/main/</datadir>
+                <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/addon%20cine%20mundo/plugin.video.BHSXTREAM.zip</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
