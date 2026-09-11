@@ -19,7 +19,7 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.BHSXTREAM" version="1.0.3" name="[B] [COLOR white]Cine[/COLOR] [COLOR red]Mundo[/COLOR] [/B]" provider-name="Bryan">
+    <addon id="plugin.video.BHSXTREAM" version="1.0.4" name="[B] [COLOR white]Cine[/COLOR] [COLOR red]Mundo[/COLOR] [/B]" provider-name="Bryan">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests"/>
