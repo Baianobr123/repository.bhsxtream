@@ -6,7 +6,7 @@
             <dir minversion="19.0.0">
                 <info compressed="false">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml</info>
                 <checksum>https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/main/</datadir>
+                <datadir zip="true">https://raw.githubusercontent.com/Baianobr123/repository.bhsxtream/addon%20cine%20mundo/main/</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -19,21 +19,20 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.BHSXTREAM" name="[B][COLOR white]Cine[/COLOR] [COLOR red]Mundo[/COLOR] [COLOR cyan]BHS[/COLOR][/B]" version="1.0.1" provider-name="Bryan">
+    <addon id="plugin.video.BHSXTREAM" version="1.0.2" name="[B] [COLOR white]Cine[/COLOR] [COLOR red]Mundo[/COLOR] [/B]" provider-name="Bryan">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.requests"/>
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="pt">Cine Mundo BHS - Filmes e Séries</summary>
-            <description lang="pt">Addon de vídeos oficial do Cine Mundo BHS</description>
+            <summary lang="pt">Addon Xtream para Kodi baseado no Cine Mundo BHS</summary>
             <platform>all</platform>
             <assets>
-                <icon>icon.png</icon>
+                <icon>IMGs/icon.png</icon>
+                <fanart>IMGs/fanart.png</fanart>
             </assets>
         </extension>
     </addon>
-
-</addons>
